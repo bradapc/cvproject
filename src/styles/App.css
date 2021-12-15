@@ -39,5 +39,32 @@ input:focus, textarea:focus {
 }
 
 .cv-container {
-    background-color: silver;
+    background-color: rgb(247, 189, 114);
+}
+
+.cv-container h3, .cv-container p {
+    text-align: left;
+    color: rgb(51, 51, 51);
+}
+
+.Bar {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(250, 146, 27);
+}
+
+.gen-info p, .gen-info h3 {
+    text-align: center;
+}
+
+.gen-info {
+    padding: 8px;
+}
+
+.education {
+    padding: 8px;
+}
+
+.work-experience {
+    padding: 8px;
 }

@@ -94,6 +94,7 @@ class App extends React.Component {
                         <input name='work-date-end' type='date' onChange={this.handleChange}></input>
                     </div>
                     <div className='cv-container'>
+                        <div className='Bar'></div>
                         <GeneralInfo name={this.state.generalInfo.name}
                         email={this.state.generalInfo.email}
                         phone={this.state.generalInfo.phone}/>
@@ -106,6 +107,7 @@ class App extends React.Component {
                         tasks = {this.state.work.tasks}
                         date_start = {this.state.work.date_start}
                         date_end = {this.state.work.date_end}/>
+                        <div className='Bar'></div>
                     </div>
                 </div>
             </div>

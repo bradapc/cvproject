@@ -7,7 +7,7 @@ class WorkExperience extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='work-experience'>
                 <h3>Work Experience</h3>
                 <p>{this.props.name}</p>
                 <p>{this.props.title}</p>
