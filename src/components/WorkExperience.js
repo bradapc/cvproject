@@ -7,7 +7,13 @@ class WorkExperience extends React.Component {
 
     render() {
         return (
-            <h3>Work Experience</h3>
+            <div>
+                <h3>Work Experience</h3>
+                <p>{this.props.name}</p>
+                <p>{this.props.title}</p>
+                <p>{this.props.tasks}</p>
+                <p>Attended from <strong>{this.props.date_start}</strong> to <strong>{this.props.date_end}</strong></p>
+            </div>
         );
     }
 }
