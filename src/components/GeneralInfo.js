@@ -8,6 +8,7 @@ class GeneralInfo extends React.Component {
     render() {
         return (
             <div>
+                <h3>General Information</h3>
                 <p>{this.props.name}</p>
                 <p>{this.props.email}</p>
                 <p>{this.props.phone}</p>
